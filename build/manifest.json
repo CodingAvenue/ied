@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Internal Employee Directory",
+  "description": "Showcase my awesome skill",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

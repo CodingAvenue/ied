@@ -2,7 +2,7 @@ import typescript from 'rollup-plugin-typescript';
 
 export default {
   entry: './src/app.tsx',
-  dest: 'bundle.js',
+  dest: '../build/popup.js',
   format: 'iife',
   external: [
       'react', 
