@@ -1,0 +1,23 @@
+{
+  "name": "popup",
+  "version": "1.0.0",
+  "author": "Sandae Macalalag <sandaemc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.33",
+    "@types/react-dom": "^15.5.1",
+    "rollup": "^0.43.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-watch": "^3.2.2",
+    "typescript": "^2.2.2"
+  }
+}
