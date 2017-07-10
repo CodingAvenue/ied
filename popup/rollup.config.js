@@ -7,12 +7,14 @@ export default {
   external: [
       'react', 
       'react-dom', 
-      'axios', 
+      'redux',
+      'react-redux'
   ],
   globals: {
       'react': 'React',
       'react-dom': 'ReactDOM',
-      'axios': 'axios'
+      'redux': 'Redux',
+      'react-redux': 'ReactRedux'
   },
   plugins: [
       typescript({

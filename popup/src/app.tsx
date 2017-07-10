@@ -1,10 +1,16 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { configure }from './store';
+import Main from './components/main';
+
+const store = configure();
 
 ReactDOM.render(
-	<div>
-		<h1>Wow</h1>
-	</div>,
+	<Provider store={store}>
+		<div>
+			<Main />
+		</div>
+	</Provider>,
 	document.getElementById('app-entry')
 );
